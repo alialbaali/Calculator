@@ -6,15 +6,15 @@ import androidx.room.PrimaryKey
 
 
 @Entity(tableName = "calculations")
-class Calculation(
+data class Calculation(
 
     @PrimaryKey(autoGenerate = true)
-    private val id: Long,
+     var id: Long = 0L,
 
     @ColumnInfo(name = "operation")
-    private val operation: String,
+     var operation: String? = null,
 
     @ColumnInfo(name = "result")
-    private val result: String
+     var result: String? = null
 
 )

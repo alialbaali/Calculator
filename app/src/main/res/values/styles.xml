@@ -1,11 +1,43 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="buttonStyle">@style/buttonStyle</item>
     </style>
 
+    <style name="buttonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_shape</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
+    <style name="signButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/sign_button_shape</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="clearButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/clear_button_shape</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <style name="equalButtonShape" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/equal_button_shape</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@color/green</item>
+    </style>
+
+    <style name="resultText" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">60sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
 </resources>

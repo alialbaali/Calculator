@@ -16,6 +16,6 @@ interface CalculatorDao {
     @Delete
     suspend fun delete(calculation: Calculation)
 
-    @Query("SELECT * from ")
-    suspend fun get(): LiveData<List<Calculation>>
+    @Query("SELECT * from calculations")
+    suspend fun get(): List<Calculation>
 }
