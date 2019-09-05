@@ -24,7 +24,7 @@
             android:layout_marginStart="@dimen/high_margin"
             android:layout_marginEnd="@dimen/high_margin"
             android:layout_marginBottom="@dimen/high_margin"
-            android:layout_weight="1">
+            android:layout_weight="10">
 
 
             <TableRow
@@ -33,39 +33,39 @@
                 android:layout_weight="1">
 
                 <Button
-                    android:id="@+id/button"
-                    style="@style/clearButtonStyle"
+                    android:id="@+id/clearButton"
+                    style="@style/landClearButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/normal_margin"
+                    android:layout_margin="@dimen/land_normal_margin"
                     android:layout_weight="1"
                     android:text="@string/clear" />
 
                 <Button
                     android:id="@+id/button10"
-                    style="@style/signButtonStyle"
+                    style="@style/landSignButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/normal_margin"
+                    android:layout_margin="@dimen/land_normal_margin"
                     android:layout_weight="1"
                     android:text="@string/parenthesis" />
 
                 <Button
                     android:id="@+id/button11"
-                    style="@style/signButtonStyle"
+                    style="@style/landSignButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/normal_margin"
+                    android:layout_margin="@dimen/land_normal_margin"
                     android:layout_weight="1"
                     android:text="@string/percentage"
-                    />
+                     />
 
                 <Button
                     android:id="@+id/button12"
-                    style="@style/signButtonStyle"
+                    style="@style/landSignButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/normal_margin"
+                    android:layout_margin="@dimen/land_normal_margin"
                     android:layout_weight="1"
                     android:text="@string/division" />
             </TableRow>
@@ -77,36 +77,40 @@
 
                 <Button
                     android:id="@+id/button7"
+                    style="@style/landButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/normal_margin"
+                    android:layout_margin="@dimen/land_normal_margin"
                     android:layout_weight="1"
                     android:text="@string/seven" />
 
                 <Button
                     android:id="@+id/button8"
+                    style="@style/landButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/normal_margin"
+                    android:layout_margin="@dimen/land_normal_margin"
                     android:layout_weight="1"
                     android:text="@string/eight" />
 
                 <Button
                     android:id="@+id/button9"
+                    style="@style/landButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/normal_margin"
+                    android:layout_margin="@dimen/land_normal_margin"
                     android:layout_weight="1"
                     android:text="@string/nine" />
 
                 <Button
                     android:id="@+id/button18"
-                    style="@style/signButtonStyle"
+                    style="@style/landSignButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/normal_margin"
+                    android:layout_margin="@dimen/land_normal_margin"
                     android:layout_weight="1"
-                    android:text="@string/multiply" />
+                    android:text="@string/multiply"
+                    />
             </TableRow>
 
             <TableRow
@@ -116,34 +120,37 @@
 
                 <Button
                     android:id="@+id/button4"
+                    style="@style/landButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/normal_margin"
+                    android:layout_margin="@dimen/land_normal_margin"
                     android:layout_weight="1"
                     android:text="@string/four" />
 
                 <Button
                     android:id="@+id/button5"
+                    style="@style/landButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/normal_margin"
+                    android:layout_margin="@dimen/land_normal_margin"
                     android:layout_weight="1"
                     android:text="@string/five" />
 
                 <Button
                     android:id="@+id/button6"
+                    style="@style/landButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/normal_margin"
+                    android:layout_margin="@dimen/land_normal_margin"
                     android:layout_weight="1"
                     android:text="@string/six" />
 
                 <Button
                     android:id="@+id/button21"
-                    style="@style/signButtonStyle"
+                    style="@style/landSignButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/normal_margin"
+                    android:layout_margin="@dimen/land_normal_margin"
                     android:layout_weight="1"
                     android:text="@string/minus" />
             </TableRow>
@@ -155,34 +162,37 @@
 
                 <Button
                     android:id="@+id/button1"
+                    style="@style/landButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/normal_margin"
+                    android:layout_margin="@dimen/land_normal_margin"
                     android:layout_weight="1"
                     android:text="@string/one" />
 
                 <Button
                     android:id="@+id/button2"
+                    style="@style/landButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/normal_margin"
+                    android:layout_margin="@dimen/land_normal_margin"
                     android:layout_weight="1"
                     android:text="@string/two" />
 
                 <Button
                     android:id="@+id/button3"
+                    style="@style/landButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/normal_margin"
+                    android:layout_margin="@dimen/land_normal_margin"
                     android:layout_weight="1"
                     android:text="@string/three" />
 
                 <Button
                     android:id="@+id/button22"
-                    style="@style/signButtonStyle"
+                    style="@style/landSignButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/normal_margin"
+                    android:layout_margin="@dimen/land_normal_margin"
                     android:layout_weight="1"
                     android:text="@string/plus" />
 
@@ -195,34 +205,37 @@
 
                 <Button
                     android:id="@+id/button13"
+                    style="@style/landButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/normal_margin"
+                    android:layout_margin="@dimen/land_normal_margin"
                     android:layout_weight="1"
                     android:text="@string/test" />
 
                 <Button
                     android:id="@+id/button14"
+                    style="@style/landButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/normal_margin"
+                    android:layout_margin="@dimen/land_normal_margin"
                     android:layout_weight="1"
                     android:text="@string/zero" />
 
                 <Button
                     android:id="@+id/button15"
+                    style="@style/landButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/normal_margin"
+                    android:layout_margin="@dimen/land_normal_margin"
                     android:layout_weight="1"
                     android:text="@string/dot" />
 
                 <Button
                     android:id="@+id/button16"
-                    style="@style/equalButtonShape"
+                    style="@style/landEqualButtonShape"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/normal_margin"
+                    android:layout_margin="@dimen/land_normal_margin"
                     android:layout_weight="1"
                     android:text="@string/equal" />
             </TableRow>
