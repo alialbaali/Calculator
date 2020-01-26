@@ -9,12 +9,12 @@ import androidx.room.PrimaryKey
 data class Calculation(
 
     @PrimaryKey(autoGenerate = true)
-     var id: Long = 0L,
+    var id: Long = 0L,
 
     @ColumnInfo(name = "operation")
-     var operation: String? = null,
+    var operation: String? = null,
 
     @ColumnInfo(name = "result")
-     var result: String? = null
+    var result: String? = null
 
 )

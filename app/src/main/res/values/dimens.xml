@@ -2,7 +2,8 @@
 <resources>
     <dimen name="normal_margin">8dp</dimen>
     <dimen name="high_margin">16dp</dimen>
-    <dimen name="land_normal_margin">4dp</dimen>
-    <dimen name="font_size">35sp</dimen>
-    <dimen name="land_font_size">25sp</dimen>
+    <dimen name="button_text_size">35sp</dimen>
+    <dimen name="sign_button_text_size">45sp</dimen>
+    <dimen name="fit_button_text_size">30sp</dimen>
+
 </resources>

@@ -8,7 +8,7 @@
 
         <TextView
             android:id="@+id/resultView"
-            style="@style/resultText"
+            style="@style/resultTextStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
@@ -37,35 +37,37 @@
                     style="@style/landClearButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/land_normal_margin"
+                    android:layout_margin="@dimen/normal_margin"
                     android:layout_weight="1"
                     android:text="@string/clear" />
 
                 <Button
-                    android:id="@+id/button10"
+                    android:id="@+id/parenthesisButton"
                     style="@style/landSignButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/land_normal_margin"
+                    android:layout_margin="@dimen/normal_margin"
                     android:layout_weight="1"
-                    android:text="@string/parenthesis" />
+                    android:text="@string/parenthesis"
+                    android:textSize="@dimen/fit_button_text_size"/>
 
                 <Button
-                    android:id="@+id/button11"
+                    android:id="@+id/percentageButton"
                     style="@style/landSignButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/land_normal_margin"
+                    android:layout_margin="@dimen/normal_margin"
                     android:layout_weight="1"
                     android:text="@string/percentage"
+                    android:textSize="@dimen/fit_button_text_size"
                      />
 
                 <Button
-                    android:id="@+id/button12"
+                    android:id="@+id/divisionButton"
                     style="@style/landSignButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/land_normal_margin"
+                    android:layout_margin="@dimen/normal_margin"
                     android:layout_weight="1"
                     android:text="@string/division" />
             </TableRow>
@@ -80,7 +82,7 @@
                     style="@style/landButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/land_normal_margin"
+                    android:layout_margin="@dimen/normal_margin"
                     android:layout_weight="1"
                     android:text="@string/seven" />
 
@@ -89,7 +91,7 @@
                     style="@style/landButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/land_normal_margin"
+                    android:layout_margin="@dimen/normal_margin"
                     android:layout_weight="1"
                     android:text="@string/eight" />
 
@@ -98,16 +100,16 @@
                     style="@style/landButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/land_normal_margin"
+                    android:layout_margin="@dimen/normal_margin"
                     android:layout_weight="1"
                     android:text="@string/nine" />
 
                 <Button
-                    android:id="@+id/button18"
+                    android:id="@+id/multiplyButton"
                     style="@style/landSignButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/land_normal_margin"
+                    android:layout_margin="@dimen/normal_margin"
                     android:layout_weight="1"
                     android:text="@string/multiply"
                     />
@@ -123,7 +125,7 @@
                     style="@style/landButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/land_normal_margin"
+                    android:layout_margin="@dimen/normal_margin"
                     android:layout_weight="1"
                     android:text="@string/four" />
 
@@ -132,7 +134,7 @@
                     style="@style/landButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/land_normal_margin"
+                    android:layout_margin="@dimen/normal_margin"
                     android:layout_weight="1"
                     android:text="@string/five" />
 
@@ -141,16 +143,16 @@
                     style="@style/landButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/land_normal_margin"
+                    android:layout_margin="@dimen/normal_margin"
                     android:layout_weight="1"
                     android:text="@string/six" />
 
                 <Button
-                    android:id="@+id/button21"
+                    android:id="@+id/minusButton"
                     style="@style/landSignButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/land_normal_margin"
+                    android:layout_margin="@dimen/normal_margin"
                     android:layout_weight="1"
                     android:text="@string/minus" />
             </TableRow>
@@ -165,7 +167,7 @@
                     style="@style/landButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/land_normal_margin"
+                    android:layout_margin="@dimen/normal_margin"
                     android:layout_weight="1"
                     android:text="@string/one" />
 
@@ -174,7 +176,7 @@
                     style="@style/landButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/land_normal_margin"
+                    android:layout_margin="@dimen/normal_margin"
                     android:layout_weight="1"
                     android:text="@string/two" />
 
@@ -183,16 +185,16 @@
                     style="@style/landButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/land_normal_margin"
+                    android:layout_margin="@dimen/normal_margin"
                     android:layout_weight="1"
                     android:text="@string/three" />
 
                 <Button
-                    android:id="@+id/button22"
+                    android:id="@+id/plusButton"
                     style="@style/landSignButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/land_normal_margin"
+                    android:layout_margin="@dimen/normal_margin"
                     android:layout_weight="1"
                     android:text="@string/plus" />
 
@@ -204,38 +206,38 @@
                 android:layout_weight="1">
 
                 <Button
-                    android:id="@+id/button13"
+                    android:id="@+id/plusMinusButton"
                     style="@style/landButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/land_normal_margin"
+                    android:layout_margin="@dimen/normal_margin"
                     android:layout_weight="1"
                     android:text="@string/test" />
 
                 <Button
-                    android:id="@+id/button14"
+                    android:id="@+id/button0"
                     style="@style/landButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/land_normal_margin"
+                    android:layout_margin="@dimen/normal_margin"
                     android:layout_weight="1"
                     android:text="@string/zero" />
 
                 <Button
-                    android:id="@+id/button15"
+                    android:id="@+id/dotButton"
                     style="@style/landButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/land_normal_margin"
+                    android:layout_margin="@dimen/normal_margin"
                     android:layout_weight="1"
                     android:text="@string/dot" />
 
                 <Button
-                    android:id="@+id/button16"
+                    android:id="@+id/equalButton"
                     style="@style/landEqualButtonShape"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/land_normal_margin"
+                    android:layout_margin="@dimen/normal_margin"
                     android:layout_weight="1"
                     android:text="@string/equal" />
             </TableRow>

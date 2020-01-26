@@ -2,28 +2,28 @@
 <resources>
     <style name="landButtonStyle" parent="Widget.AppCompat.Button">
         <item name="android:background">@drawable/button_shape</item>
-        <item name="android:textSize">@dimen/land_font_size</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
         <item name="android:fontFamily">sans-serif-medium</item>
         <item name="android:textColor">@android:color/black</item>
     </style>
 
     <style name="landSignButtonStyle" parent="Widget.AppCompat.Button">
         <item name="android:background">@drawable/sign_button_shape</item>
-        <item name="android:textSize">@dimen/land_font_size</item>
+        <item name="android:textSize">@dimen/sign_button_text_size</item>
         <item name="android:fontFamily">sans-serif-medium</item>
         <item name="android:textColor">@color/green</item>
     </style>
 
     <style name="landClearButtonStyle" parent="Widget.AppCompat.Button">
         <item name="android:background">@drawable/button_shape</item>
-        <item name="android:textSize">@dimen/land_font_size</item>
+        <item name="android:textSize">@dimen/fit_button_text_size</item>
         <item name="android:fontFamily">sans-serif-medium</item>
         <item name="android:textColor">@color/red</item>
     </style>
 
     <style name="landEqualButtonShape" parent="Widget.AppCompat.Button">
         <item name="android:background">@drawable/equal_button_shape</item>
-        <item name="android:textSize">@dimen/land_font_size</item>
+        <item name="android:textSize">@dimen/sign_button_text_size</item>
         <item name="android:fontFamily">sans-serif-medium</item>
         <item name="android:textColor">@android:color/white</item>
     </style>

@@ -1,0 +1,74 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\alial\\OneDrive\\Attachments\\Coding Projects\\Android Development\\Kotlin\\MyApps\\Calculator\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\alial\\.gradle\\caches\\transforms-2\\files-2.1\\f4cc650857ca7115336c32e42c84fc6f\\material-1.0.0\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "10",
+                        "endOffsets": "222"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "504",
+                        "endLines": "13",
+                        "endColumns": "10",
+                        "endOffsets": "671"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\alial\\OneDrive\\Attachments\\Coding Projects\\Android Development\\Kotlin\\MyApps\\Calculator\\app\\src\\main\\res\\values-land\\styles.xml",
+                    "from": {
+                        "startLines": "2,16,23,30,9",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "57,783,1142,1518,417",
+                        "endLines": "7,21,28,34,14",
+                        "endColumns": "12,12,12,12,12",
+                        "endOffsets": "409,1134,1510,1779,775"
+                    },
+                    "to": {
+                        "startLines": "14,20,26,32,37",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "676,1028,1379,1747,2009",
+                        "endLines": "19,25,31,36,42",
+                        "endColumns": "12,12,12,12,12",
+                        "endOffsets": "1023,1374,1742,2004,2362"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\alial\\OneDrive\\Attachments\\Coding Projects\\Android Development\\Kotlin\\MyApps\\Calculator\\app\\src\\main\\res\\values-land\\dimens.xml",
+                    "from": {
+                        "startLines": "4,6,3,2,5",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "146,249,102,57,195",
+                        "endColumns": "47,51,42,43,52",
+                        "endOffsets": "189,296,140,96,243"
+                    },
+                    "to": {
+                        "startLines": "5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "264,312,364,407,451",
+                        "endColumns": "47,51,42,43,52",
+                        "endOffsets": "307,359,402,446,499"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\alial\\.gradle\\caches\\transforms-2\\files-2.1\\e9ae3774108b833d755ef0f4d315c971\\appcompat-1.0.2\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                }
+            ]
+        }
+    ]
+}
